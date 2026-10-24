@@ -1,0 +1,8 @@
+*.d
+*.o
+wolf3d*
+wolf4sdl*
+*.wl[136]
+*.sod
+*.sd[123]
+*.sdm

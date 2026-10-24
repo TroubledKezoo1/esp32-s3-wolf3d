@@ -1,0 +1,65 @@
+# --- PlatformIO / build output ---
+.pio/
+.pioenvs/
+.piolibdeps/
+build/
+*.bin
+*.elf
+*.map
+*.o
+*.d
+*.a
+compile_commands.json
+.cache/
+
+# --- Editors / OS ---
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*~
+*.bak
+.DS_Store
+Thumbs.db
+
+# --- Logs and temporary output ---
+*.log
+*_log.txt
+monitor_output.txt
+*.jsonl
+venv/
+__pycache__/
+
+# --- Game data (copyrighted, never commit). Copy your own WL6 files to the SD card. ---
+sd_card_files/*
+!sd_card_files/README.txt
+*.wl6
+*.WL6
+*.wl1
+*.WL1
+*.sod
+*.SOD
+
+# --- Vendor documents and media kept local (copyright / size) ---
+*.pdf
+*.zip
+*.mp4
+*.bmp
+*.wav
+!docs/**/*.pdf
+
+# --- Reference code, not part of the build ---
+original_wolf3d/
+
+# --- Tooling output ---
+graphify-out/
+.claude/worktrees/
+.claude/settings.local.json
+
+# --- AI assistant notes and tooling (local only, not part of the project) ---
+AI_MEMORY.md
+GEMINI.md
+PROJECT_STATE.md
+CLAUDE.md
+.claude/
+.graphifyignore
